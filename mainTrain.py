@@ -15,7 +15,7 @@ from keras.layers import Activation, Dropout, Flatten, Dense
 from keras.utils.np_utils import to_categorical
 
 
-image_directory='dataset/'
+image_directory='E:/sdp_sem4_/addable/dataset/'
 
 no_tumor_images=os.listdir(image_directory+ 'no/')
 yes_tumor_images=os.listdir(image_directory+ 'yes/')
