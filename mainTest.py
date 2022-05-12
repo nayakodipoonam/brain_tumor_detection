@@ -7,7 +7,7 @@ from keras.models import Sequential
 
 model=load_model('BrainTumor10Epochs.h5')
 
-image=cv2.imread('E:\\sdp_sem4_\\archive\\pred\\pred5.jpg')
+image=cv2.imread('E:/sdp_sem4_/addable/pred/pred5.jpg')
 
 img=Image.fromarray(image)
 
