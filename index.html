@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="form">
+        <table id="table" class="table table-striped">
+            <tr id="n">
+                <td>Name</td>
+                <td><input type="text" id="name">
+                    <p id="nerror"></p>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Mobile No.</td>
+                <td><input type="text" id="mob">
+                <p id="merror"></p>
+            </td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" id="email">
+                <p id="eerror"></p>
+            </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <label for="male" >male</label>
+                    <input type="radio" id="male" name="gender">
+                    <label for="female" >female</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="other" >other</label>
+                    <input type="radio" id="other" name="gender">
+                </td>
+            </tr>
+            <tr>
+                <td>Branch</td>
+                <td><select name="branch" id="br">
+                    <option value="cs">CS</option>
+                    <option value="mech">MECH</option>
+                    <option value="it">IT</option>
+                    <option value="AI-DS">AIDS</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Language</td>
+                <td>
+                    <input type="checkbox">
+                    <label for="marathi">marathi</label>
+                    <input type="checkbox">
+                    <label for="hindi">hindi</label>
+                    <input type="checkbox">
+                    <label for="english">english</label>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>About</td>
+                <td><textarea name="about" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>User Name</td>
+                <td><input type="text" id="username">
+                <p id="uerror"></p>
+            </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="text" id="pass">
+                <p id="perror"></p>
+            </td>
+            </tr>
+        </table>
+        <input type="submit" name="submit" id="submit">
+    </form>
+
+<video src="video.mp4" id="bgvideo" autoplay loop muted poster="video/recorded with FlexClip Screen video.webm"></video>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
