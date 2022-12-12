@@ -1,0 +1,63 @@
+
+#img1{
+    border-width: 2px; 
+    border-color: black;
+    border-style: solid;
+    margin-left: 10px;
+}
+#img2{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 10px;
+}
+#img3{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#view{
+    margin-left: 700px;
+}
+
+#background-video {
+    height: 700px;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 1;
+    bottom: 0;
+    z-index: -1;
+  }
+  @media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+      background-size: cover;
+    }
+}
+
+#intro{
+    height: 200px;
+}
+nav{
+    background-color: rgba(152, 208, 223, 0.872);
+}
+h2{
+    display: inline-block;
+    padding: 10px;
+}
+
+#ani{
+    /* font-size: 20px; */
+    color: blue;
+}
+
+#sec{
+    background-color: coral;
+    height: 400px;
+}
